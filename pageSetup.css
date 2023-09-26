@@ -1,0 +1,57 @@
+html {
+  background-color: rgba(14, 21, 36, 0.8);
+}
+
+.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000;
+}
+
+li {
+  float: left;
+}
+
+.topnav a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04aa6d;
+}
+
+.column {
+  float: left;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.column.side {
+  width: 25%;
+}
+
+.column.middle {
+  width: 50%;
+}
+
+h1 {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+@media screen and (max-width: 600px) {
+  .column.side,
+  .column.middle,
+  .fullscreen {
+    width: 100%;
+  }
+}
