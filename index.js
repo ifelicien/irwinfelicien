@@ -16,5 +16,3 @@ document.querySelector("middleParagraph").innerText =
 document.querySelector("rightTitle").innerText = "Right Side";
 document.querySelector("rightParagraph").innerText =
   "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam incidunt facere, possimus, unde illo quis iusto nihil minus, officiis aperiam quod natus veritatis? Dolorum atque assumenda adipisci quae laboriosam consectetur magnam quam exercitationem unde necessitatibus tempore delectus, iste sequi aliquid?";
-
-  
