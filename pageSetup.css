@@ -29,7 +29,7 @@ body {
 }
 
 .active {
-  background-color: #aa040a;
+  background-color: #5a5959;
 }
 
 .column {
@@ -45,6 +45,7 @@ body {
   width: 70%;
   padding-left: 1%;
 }
+
 
 h1 {
   text-align: center;
@@ -62,8 +63,8 @@ h1 {
 }
 
 #middleParagraph {
-  font-size: 26px;
-  font-family: 'Dancing Script', serif;
+  font-size: 22px;
+  font-family:serif;
   
 }
 
@@ -85,10 +86,10 @@ h1 {
 
 .statSheet li {
   display: block;
-  font-size: 22px;
+  font-size: 20px;
   padding: 8px 16px;
   text-decoration: none;
-  font-family: 'Dancing Script', serif;
+  /* font-family: 'Dancing Script', serif; */
   /* border: 2px solid red; */
 }
 
