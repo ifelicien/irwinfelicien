@@ -1,5 +1,6 @@
-html {
+body {
   background-color: rgba(14, 21, 36, 0.8);
+  /* height: 150vh; */
 }
 
 .topnav {
@@ -21,6 +22,7 @@ html {
   padding: 14px 16px;
   text-decoration: none;
 }
+
 
 .topnav a:hover {
   background-color: #111;
@@ -49,14 +51,24 @@ h1 {
   color: rgba(255, 255, 255, 0.8);
 }
 
-.column.side p{
+#titleBar{
+  font-family: 'Great Vibes', serif;
+  font-size: 48px;
+}
 
+#middleTitle{
+  font-family: 'Great Vibes' , serif;
+  font-size: 35px;
+}
+
+#middleParagraph {
+  font-size: 26px;
+  font-family: 'Dancing Script', serif;
+  
 }
 
 #gradPic{
-  padding-top: 5%;
-  padding-bottom: 5%;
-  height: 25rem;
+  width: 100%;
 }
 
 #gitMark {
@@ -73,9 +85,10 @@ h1 {
 
 .statSheet li {
   display: block;
-  font-size: 20px;
+  font-size: 22px;
   padding: 8px 16px;
   text-decoration: none;
+  font-family: 'Dancing Script', serif;
   /* border: 2px solid red; */
 }
 
