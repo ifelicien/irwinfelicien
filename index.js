@@ -1,4 +1,0 @@
-function myFunction() {
-    document.querySelector("#middleTitle").innerText = "" ;
-    document.querySelector("#middleParagraph").innerText = 'On a more personal note, I\'m a tech geek through and through. I love getting lost in video games, especially the thrilling world of sim racing and the competitive realm of fighting games. But it\'s not just about virtual adventures for me; I\'m equally passionate about building computers, crafting these powerful systems that fuel my digital escapades. When I\'m not knee-deep in code or hardware, you can find me outdoors, hitting the gym, playing sports, or biking along scenic routes. I\'m all about that balance, finding excitement in both the tech universe and the active, real-world experiences. Join me on this journey where the thrill of technology meets the buzz of active living!'
-}
