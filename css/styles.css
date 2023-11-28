@@ -27,7 +27,7 @@
 
   #welcome {
     padding-top: 20%;
-    margin-left: 50%;
+    margin-left: 70%;
     opacity: 0;
     font-size: 4rem;
     transform: translateX(-100%);
@@ -48,7 +48,7 @@
   #aboutMe {
     opacity: 0;
     padding-top: 5%;
-    margin-left: 30%;
+    margin-left: 10%;
     text-align: left;
     font-size: 1.3rem;
     transform: translateX(-100%);
@@ -66,7 +66,23 @@
     }
   }
 
- 
+ #mainPic {
+  margin-top: 2%;
+  height: 100%;
+  border-radius: 60%;
+ }
+
+ #resumeImg {
+  height: 80%;
+ }
+
+ .row g3 {
+  margin-top: 15%;
+ }
+
+ /* #message {
+  height: 300%;
+ } */
   
   
   
@@ -75,9 +91,9 @@
   width: 100%;
 }
 
-[class*="col"] {
+/* [class*="col"] {
   width: 100%;
-}
+} */
 
 @media only screen and (min-width: 600px) {
   /* For tablets: */

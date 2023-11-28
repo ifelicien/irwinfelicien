@@ -1,84 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap Hero Example</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bootstrap Hero Example</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-  <link rel="stylesheet" href="styles.css">
-</head>
-
-<body>
-  
+  <body>
     <!-- navbar -->
 
     <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
-        <div class="container">
-            <a href="index.html" class="navbar-brand">Irwin Felicien</a>
+      <div class="container">
+        <a href="index.html" class="navbar-brand">Irwin Felicien</a>
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-            <div class="collapse navbar-collapse" id="navmenu">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Resume</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">github</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">linkedin</a>
-                    </li>
-                </ul>
-            </div>
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="#" class="nav-link">Resume</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a
+                href="https://github.com/ifelicien"
+                target="_blank"
+                class="nav-link"
+                >github</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                href="https://www.linkedin.com/in/felicienirwin/"
+                target="_blank"
+                class="nav-link"
+                >linkedin</a
+              >
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
 
     <!-- Showcase -->
-    
+
     <div class="container">
-        <img src="https://placehold.co/1125x500" class="img-fluid shadow-sm p-3 mb-5 bg-body rounded" alt="...">
-        <div class="row">
-          <div class="col">
-            <div class="card shadow-lg p-3 mb-5 bg-body rounded" style="width: 18rem;">
-                <div class="card-body">
-                  <h5 class="card-title">Job Flow - Application</h5>
-                  <h6 class="card-subtitle mb-2 text-muted">Side Project 2023</h6>
-                  <p class="card-text">Creating a desktop application for collision repair shops, enabling users to enter customer and vehicle details. The application stores customer information in an SQL database and offers the option to export the data to Excel for user-friendly access and readability.</p>
-                  <a href="#" class="card-link">Card link</a>
-                </div>
-              </div>
+      <!-- <img src="https://placehold.co/1125x500" class="img-fluid shadow-sm p-3 mb-5 bg-body rounded" alt="..."> -->
+      <a href="/images/SE Resume 2023.pdf">
+        <img
+          class="img-fluid shadow-sm p-3 mb-5 bg-body rounded"
+          id="resumeImg"
+          src="/images/resumeCap.png"
+          alt="..."
+        />
+      </a>
+
+      <div class="row">
+        <div class="col">
+          <div
+            class="card shadow-lg p-3 mb-5 bg-body rounded"
+            style="width: 18rem"
+          >
+            <div class="card-body">
+              <h5 class="card-title">Job Flow - Application</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Side Project 2023</h6>
+              <p class="card-text">
+                Creating a desktop application for collision repair shops,
+                enabling users to enter customer and vehicle details. The
+                application stores customer information in an SQL database and
+                offers the option to export the data to Excel for user-friendly
+                access and readability.
+              </p>
+            </div>
           </div>
-          <div class="col">
-            <div class="card shadow-lg p-3 mb-5 bg-body rounded" style="width: 18rem;">
-                <div class="card-body">
-                  <h5 class="card-title">EEG Research 2023</h5>
-                  <h6 class="card-subtitle mb-2 text-muted">Texas Southern University 2023</h6>
-                  <p class="card-text">Explored machine learning applications in Electroencephalography (EEG) testing, utilizing Support Vector Machine algorithm in both Python and R languages. Conducted a comparative analysis with past research that employed the K-Nearest Neighbor algorithm</p>
-                  <a href="#" class="card-link">Card link</a>
-                </div>
-              </div>
+        </div>
+        <div class="col">
+          <div
+            class="card shadow-lg p-3 mb-5 bg-body rounded"
+            style="width: 18rem"
+          >
+            <div class="card-body">
+              <h5 class="card-title">EEG Research 2023</h5>
+              <h6 class="card-subtitle mb-2 text-muted">
+                Texas Southern University 2023
+              </h6>
+              <p class="card-text">
+                Explored machine learning applications in Electroencephalography
+                (EEG) testing, utilizing Support Vector Machine algorithm in
+                both Python and R languages. Conducted a comparative analysis
+                with past research that employed the K-Nearest Neighbor
+                algorithm
+              </p>
+            </div>
           </div>
-          <div class="col">
-            <div class="card shadow-lg p-3 mb-5 bg-body rounded" style="width: 18rem;">
-                <div class="card-body">
-                  <h5 class="card-title">Reporting Application</h5>
-                  <h6 class="card-subtitle mb-2 text-muted">Work Project 2023</h6>
-                  <p class="card-text">Developed an application that streamlined the reporting and resolution process among different departments. The reported issues saw a 20% improvement in response time, and the application also maintained a comprehensive record of identified problems. </p>
-                  <a href="#" class="card-link">Card link</a>
-                </div>
-              </div>
-          </div> 
+        </div>
+        <div class="col">
+          <div
+            class="card shadow-lg p-3 mb-5 bg-body rounded"
+            style="width: 18rem"
+          >
+            <div class="card-body">
+              <h5 class="card-title">Reporting Application</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Work Project 2023</h6>
+              <p class="card-text">
+                Developed an application that streamlined the reporting and
+                resolution process among different departments. The reported
+                issues saw a 20% improvement in response time, and the
+                application also maintained a comprehensive record of identified
+                problems.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
-  <!-- Bootstrap JS and dependencies (optional) -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-</body>
-
+    </div>
+    <!-- Bootstrap JS and dependencies (optional) -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
