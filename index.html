@@ -1,84 +1,175 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Irwin Felicien</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="/css/styles.css" />
+    <title>Irwin Felicien - Software Engineer</title>
+    <link rel="stylesheet" type="text/css" href="/css/styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
   </head>
   <body>
-    <!-- navbar -->
-
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
-      <div class="container">
-        <a href="#" class="navbar-brand">Irwin Felicien</a>
-
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navmenu"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navmenu">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a href="resume.html" class="nav-link">Resume</a>
-            </li>
-            <li class="nav-item">
-              <a href="contact.html" class="nav-link">Contact</a>
-            </li>
-            <li class="nav-item">
-              <a href="https://github.com/ifelicien" target="_blank" class="nav-link">github</a>
-            </li>
-            <li class="nav-item">
-              <a href="https://www.linkedin.com/in/felicienirwin/" target="_blank" class="nav-link">linkedin</a>
-            </li>
-          </ul>
-        </div>
+    <header>
+      <div id="logo">
+        <img src="/images/Logo.jpg" alt="logo" />
       </div>
-    </nav>
-
-    <div class="container">
-      <div class="row">
-        <div class="col-5">
-          <h1 id="welcome">Welcome</h1>
-        </div>
-        <div class="row">
-          <img class="col-4" id="mainPic" src="/images/_DSC0009fivr2.png" alt="" srcset="">
-          <div class="col">
-            <p id="aboutMe">
-              Welcome to my corner of the internet! My name is Irwin Felicien,
-              and I'm delighted to have you here. I recently graduated from
-              Texas Southern University in 2023, majoring in computer science.
-              With a strong foundation in front-end languages like HTML and CSS,
-              as well as proficiency in back-end languages including JS, Java,
-              C++, and SQL, I'm passionate about all things tech-related. I
-              invite you to explore my resume and learn more about my skills and
-              experiences. Visit my <b>Resume</b> page to get a detailed overview of my
-              qualifications and the projects I've worked on. If you have any
-              questions or just want to say hello, feel free to reach out via my
-              <b>Contact</b> page. Additionally, you can check out my professional
-              journey on my
-              <b>LinkedIn</b> profile, where I share insights, articles, and
-              connect with like-minded professionals. For a deeper dive into my
-              coding projects and contributions, don't forget to explore my
-              <b>GitHub</b> repositories, where I showcase my coding skills and
-              collaborative work. Thank you for stopping by, and I look forward
-              to connecting with you!
-            </p>
-          </div>
-        </div>
+      <div id="title">
+        <h1>Irwin Felicien</h1>
       </div>
-    </div>
-    <script></script>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="about">
+        <h1>About Me</h1>
+        <p>
+          Hello! I'm a <strong>Software Engineer</strong> with a degree in
+          Computer Science, delivering innovative and high-quality solutions for
+          various clients. My expertise lies in <strong>HTML5</strong>,
+          <strong>CSS</strong>, and <strong>software development</strong>. I
+          have a proven track record in client collaboration, code review, and I
+          am always eager to take on new and exciting challenges.
+        </p>
+
+        <p>
+          I am particularly passionate about creating innovative solutions and
+          constantly learning new technologies. My recent work has allowed me to
+          dive deep into <strong>C#</strong>, <strong>Blazor</strong>, and
+          <strong>.NET</strong>, which I've used to develop a web app that
+          modernizes the paper records system of a collision repair shop by
+          inputting and storing customer and vehicle data.
+        </p>
+
+        <p>
+          In addition to my work in web development, I've also contributed to
+          <strong>robotic mapping research</strong> for the Powder-RENEW project
+          with Rice University, which was planned to be featured on a rover.
+          Furthermore, I've collaborated on
+          <strong>machine learning research</strong> for EEG testing using
+          Python, R, and the SVM algorithm, benchmarking results against the KNN
+          method.
+        </p>
+
+        <p>
+          I believe in the power of technology to drive progress and am excited
+          to work together to achieve greatness!
+        </p>
+        <!-- <img src="about-placeholder.jpg" alt="About Me" /> -->
+      </section>
+      <section id="projects">
+        <h1>Projects</h1>
+        <div>
+          <h2>WorkFlow (Freelance)</h2>
+          <p>
+            Since June 2023, I have been working on a personal project titled
+            “Workflow - Desktop App”. This project, which demonstrates my
+            technical skills in C#, .NET, Blazor, and Supabase, is aimed at
+            updating an automotive body shop from paper record keeping to a
+            digital format. The application, engineered using C# and Blazor,
+            facilitates user input of customer and vehicle data in a collision
+            repair shop environment. By utilizing the Supabase API for database
+            management, the application ensures robust and secure storage of
+            customer information along with user authentication. This project
+            showcases my ability to develop efficient software solutions and
+            manage databases effectively using modern APIs, while contributing
+            to the digital transformation of traditional business processes.
+          </p>
+          <!-- <img src="project1-placeholder.jpg" alt="Project 1" /> -->
+        </div>
+        <div>
+          <h2>EEG and Machine Learning (Research Assistant)</h2>
+          <p>
+            From January to May 2023, I served as a Research Assistant, focusing
+            on the intersection of Machine Learning and Electroencephalography
+            (EEG) testing. My work involved the application of the Support
+            Vector Machine (SVM) algorithm using Python and R, demonstrating my
+            advanced programming skills and understanding of Machine Learning
+            algorithms. A key aspect of the research was comparing our findings
+            with previous studies that utilized the K-Nearest Neighbor (KNN)
+            algorithm, showcasing my analytical skills and critical thinking.
+          </p>
+          <!-- <img src="project2-placeholder.jpg" alt="Project 2" /> -->
+        </div>
+        <div>
+          <h2>Powder-RENEW (Research Assistant)</h2>
+          <p>
+            I contributed to a significant robotic mapping research project in
+            collaboration with Rice University. This research was specifically
+            designed for the Powder-RENEW project, with the intention of being
+            featured on the rover. My involvement in this project underscores my
+            ability to contribute to cutting-edge research in robotics and space
+            exploration
+          </p>
+          <!-- <img src="project3-placeholder.jpg" alt="Project 3" /> -->
+        </div>
+      </section>
+      <section id="skills">
+        <h1>Skills</h1>
+        <ul>
+          <li><span class="bold-text">Proficient in C# and .NET:</span> with experience in developing robust and efficient software solutions.</li>
+          <li><span class="bold-text">Skilled in Blazor:</span> demonstrating your ability to build interactive web UIs using C# instead of JavaScript.</li>
+          <li><span class="bold-text">Experienced in SQL:</span> showcasing your ability to manage databases effectively.</li>
+          <li><span class="bold-text">Proficient in HTML, JavaScript (JS), and CSS:</span> showcasing the ability to build and maintain modern, user-friendly websites.</li>
+        </ul>
+        <!-- <img src="skills-placeholder.jpg" alt="Skills" /> -->
+      </section>
+      <section id="education">
+        <h1>Education</h1>
+        <p class="school-name">Texas Southern University - 2023</p>
+        <ul>
+          <li>
+            <span class="bold-text">Database Management Systems:</span>
+            Proficient in SQL with a solid understanding of data storage and
+            retrieval.
+          </li>
+          <li>
+            <span class="bold-text">Advanced Object-Oriented Programming:</span>
+            Developed complex software systems using Java, demonstrating a deep
+            understanding of key OOP concepts such as encapsulation,
+            inheritance, and polymorphism.
+          </li>
+          <li>
+            <span class="bold-text">Computer Programming in Java:</span>
+            Mastered the Java programming language and its application in
+            software development.
+          </li>
+          <li>
+            <span class="bold-text">Data & File Structures:</span> Learned
+            efficient techniques for data and file organization, enhancing
+            software performance.
+          </li>
+          <li>
+            <span class="bold-text">Computer Organization:</span> Acquired
+            knowledge of computer hardware, digital design, and computer
+            architecture.
+          </li>
+          <li>
+            <span class="bold-text">Web Development:</span> Gained hands-on
+            experience in HTML, CSS, JavaScript, and other web technologies,
+            showcasing the ability to build and maintain websites.
+          </li>
+        </ul>
+      </section>
+      <section id="contact">
+        <h1>Contact Me</h1>
+        <p>Feel free to reach out to me at <a href="#" onclick="copyToClipboard('felicienirwin@outlook.com')" class="my-link shake">felicienirwin@outlook.com</a><br>
+        or at <a href="#" onclick="copyToClipboard('felicien.irwin@gmail.com')" class="my-link shake">felicien.irwin@gmail.com</a><br>
+        View my <a href="/images/SE Resume 2023.pdf" class="my-link shake">Resume</a> (PDF)</p>
+        <div class="profile-links">
+          <a href="https://github.com/felicienirwin" target="_blank"><img src="/images/github-mark-white.png" alt="GitHub logo"></a>
+          <a href="https://www.linkedin.com/in/felicienirwin" target="_blank"><img src="/images/LI-In-Bug.png" alt="LinkedIn logo"></a>
+        </div>
+      </section>
+      
+    </main>
+    <footer>
+      <p>© 2024 Irwin Felicien</p>
+    </footer>
+    <script src="/js/main.js"></script>
   </body>
 </html>

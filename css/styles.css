@@ -1,128 +1,128 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #283149; /* dark blue */
+  color: #DAE0E2; /* light gray */
+}
 
+header {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #4b6cb7; /* gradient blue */
+  color: #ffffff;
+  padding: 10px 0;
+  text-align: center;
+}
 
-.hero-section {
-    background-image: url('images/Townhome.jpg'); /* Replace 'hero-background.jpg' with your actual image file */
-    background-size: cover;
-    background-position: center;
-    color: #ffffff;
-    text-align: center;
-    padding: 100px 0;
-  }
-  
-  .hero-heading {
-    font-size: 3rem;
-    margin-bottom: 20px;
-  }
-  
-  .hero-subheading {
-    font-size: 1.5rem;
-    margin-bottom: 30px;
-  }
-  
-  .btn-hero {
-    font-size: 1.2rem;
-    padding: 10px 30px;
-    margin-top: 20px;
-  }
+#logo img {
+  width: 100px; /* adjust as needed */
+  height: auto; /* maintain aspect ratio */
+}
 
-  #welcome {
-    padding-top: 20%;
-    margin-left: 70%;
-    opacity: 0;
-    font-size: 4rem;
-    transform: translateX(-100%);
-    animation: slideIn 1s forwards;
-  }
+#title{
+  text-align: center;
+  flex-grow: 1;
+  font-family: 'Playfair Display', serif;
+}
 
-  @keyframes slideIn {
-    0% {
-      opacity: 0;
-      transform: translateX(-100%);
-    }
-    100% {
-      opacity: 1;
-      transform: translateX(0);
-    }
-  }
-  
-  #aboutMe {
-    opacity: 0;
-    padding-top: 5%;
-    margin-left: 10%;
-    text-align: left;
-    font-size: 1.3rem;
-    transform: translateX(-100%);
-    animation: slideIn2 1s forwards;
-  }
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  list-style: none;
+}
 
-  @keyframes slideIn2 {
-    0% {
-      opacity: 0;
-      transform: translateX(+100%);
-    }
-    100% {
-      opacity: 1;
-      transform: translateX(0);
-    }
-  }
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
 
- #mainPic {
-  margin-top: 2%;
-  height: 100%;
-  border-radius: 60%;
- }
+nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
 
- #resumeImg {
-  height: 80%;
- }
+nav ul li a:hover {
+  color: #DAE0E2; /* light gray */
+}
 
- .row g3 {
-  margin-top: 15%;
- }
+main {
+  margin: 15px;
+  animation: fadeIn 1s ease-in;
+}
 
- /* #message {
-  height: 300%;
- } */
-  
-  
-  
-  /* For mobile phones: */
-[class*="col-"] {
+section {
+  margin-bottom: 20px;
+}
+
+section h1 {
+  color: #DAE0E2; /* light gray */
+  text-transform: uppercase;
+  border-bottom: 2px solid #DAE0E2; /* light gray */
+  padding-bottom: 10px;
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+.school-name {
+  font-size: 1.5rem;
+}
+
+footer {
+  background-color: #4b6cb7; /* gradient blue */
+  color: #ffffff;
+  text-align: center;
+  padding: 5px;
+  margin-top: 20px;
   width: 100%;
 }
 
-/* [class*="col"] {
-  width: 100%;
+.my-link{
+  color: #f3f3f3;
+  text-decoration: none;
+}
+
+
+.profile-links img {
+  width: 50px;
+  height: 50px;
+}
+
+.profile-links {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.profile-links a:nth-child(2) {
+  margin-right: 10px;
+}
+
+/* @keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
 } */
 
-@media only screen and (min-width: 600px) {
-  /* For tablets: */
-  .col-s-1 {width: 8.33%;}
-  .col-s-2 {width: 16.66%;}
-  .col-s-3 {width: 25%;}
-  .col-s-4 {width: 33.33%;}
-  .col-s-5 {width: 41.66%;}
-  .col-s-6 {width: 50%;}
-  .col-s-7 {width: 58.33%;}
-  .col-s-8 {width: 66.66%;}
-  .col-s-9 {width: 75%;}
-  .col-s-10 {width: 83.33%;}
-  .col-s-11 {width: 91.66%;}
-  .col-s-12 {width: 100%;}
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
 
-@media only screen and (min-width: 768px) {
-  /* For desktop: */
-  .col-1 {width: 8.33%;}
-  .col-2 {width: 16.66%;}
-  .col-3 {width: 25%;}
-  .col-4 {width: 33.33%;}
-  .col-5 {width: 41.66%;}
-  .col-6 {width: 50%;}
-  .col-7 {width: 58.33%;}
-  .col-8 {width: 66.66%;}
-  .col-9 {width: 75%;}
-  .col-10 {width: 83.33%;}
-  .col-11 {width: 91.66%;}
-  .col-12 {width: 100%;}
+.shake {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
 }
